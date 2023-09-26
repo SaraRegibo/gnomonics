@@ -1,6 +1,6 @@
 import math
 
-def getSubStyleDistance(latitude, declination):
+def get_substyle_distance(latitude, declination):
     
     """
     PURPOSE: Finding the sub-style distance SD for the given latitude and the given
@@ -23,10 +23,7 @@ def getSubStyleDistance(latitude, declination):
     return math.degrees(math.atan(tanSD))
 
 
-
-
-
-def getStyleHeight(latitude, declination):
+def get_style_height(latitude, declination):
 
     """
     PURPOSE: Finding the style height SH for the given latitude and the given
@@ -49,10 +46,7 @@ def getStyleHeight(latitude, declination):
     return math.degrees(math.asin(sinSH))
 
 
-
-
-
-def getLongitudeDifference(latitude, declination):
+def get_longitude_difference(latitude, declination):
 
     """
     PURPOSE: Finding the difference in latitude DL for the given latitude and the given
@@ -78,7 +72,7 @@ def getLongitudeDifference(latitude, declination):
 
 
 
-def getAngleAV(latitude, declination):
+def get_angle_av(latitude, declination):
 
     """
     PURPOSE: Finding the angle between the lines for 12pm and 6pm  for the given
@@ -104,5 +98,5 @@ def getAngleAV(latitude, declination):
 
 
 
-#def getHourLines():
+#def get_hour_lines():
 
